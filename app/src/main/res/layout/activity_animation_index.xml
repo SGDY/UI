@@ -14,17 +14,31 @@
         android:rowCount="20">
 
         <Button
-            android:id="@+id/animation"
+            android:id="@+id/alphaAnimation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Animation"
+            android:text="AlphaAnimation"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/animator"
+            android:id="@+id/scaleAnimation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Animator"
+            android:text="ScaleAnimation"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/translateAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TranslateAnimation"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/rotateAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RotateAnimation"
             android:textAllCaps="false" />
     </GridLayout>
 </ScrollView>

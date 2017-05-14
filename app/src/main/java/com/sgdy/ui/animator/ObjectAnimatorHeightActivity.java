@@ -10,7 +10,7 @@ import com.sgdy.ui.R;
 
 import static com.sgdy.ui.R.id.tv1;
 
-public class ObjectAnimatorActivity4 extends AppCompatActivity {
+public class ObjectAnimatorHeightActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

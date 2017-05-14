@@ -22,8 +22,10 @@
         <activity android:name=".animation.TranslateAnimationActivity" />
         <activity android:name=".animation.RotateAnimationActivity" />
         <activity android:name=".animator.ObjectAnimatorActivity2" />
-        <activity android:name=".animator.ObjectAnimatorActivity3" />
-        <activity android:name=".animator.ObjectAnimatorActivity4"></activity>
+        <activity android:name=".animator.ObjectAnimatorXmlActivity" />
+        <activity android:name=".animator.ObjectAnimatorHeightActivity" />
+        <activity android:name=".animation.AnimationIndexActivity" />
+        <activity android:name=".animator.AnimatorIndexActivity"></activity>
     </application>
 
 </manifest>

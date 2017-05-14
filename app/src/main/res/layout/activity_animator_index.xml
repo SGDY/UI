@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/valueAnimator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ValueAnimator"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/objectAnimator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ObjectAnimator"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toRightOf="@id/valueAnimator" />
+
+    <Button
+        android:id="@+id/objectAnimator2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ObjectAnimator2"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/valueAnimator" />
+
+    <Button
+        android:id="@+id/objectAnimator3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xml创建ObjectAnimator"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/objectAnimator2" />
+
+    <Button
+        android:id="@+id/objectAnimator4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ObjectAnimator设置控件高度"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/objectAnimator3" />
+</android.support.constraint.ConstraintLayout>

@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import com.sgdy.ui.R;
 
-public class ObjectAnimatorActivity3 extends AppCompatActivity {
+public class ObjectAnimatorXmlActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
