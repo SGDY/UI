@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".animator.ValueAnimatorActivity" />
+        <activity android:name=".animator.ObjectAnimatorActivity" />
+        <activity android:name=".animation.AlphaAnimationActivity" />
+        <activity android:name=".animation.ScaleAnimationActivity" />
+        <activity android:name=".animation.TranslateAnimationActivity" />
+        <activity android:name=".animation.RotateAnimationActivity" />
+        <activity android:name=".animator.ObjectAnimatorActivity2" />
+        <activity android:name=".animator.ObjectAnimatorActivity3" />
+        <activity android:name=".animator.ObjectAnimatorActivity4"></activity>
     </application>
 
 </manifest>
