@@ -1,10 +1,8 @@
 package com.sgdy.ui.animator;
 
-import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.TextView;
 
 import com.sgdy.ui.R;
@@ -35,6 +33,7 @@ public class ValueAnimatorActivity extends AppCompatActivity {
             public void onAnimationUpdate(ValueAnimator valueAnimator) {
                 Object value = valueAnimator.getAnimatedValue();
                 LogUtils.d("cuurent value is " + value);
+                tv1.setTranslationX(Float.valueOf(String.valueOf(value)));
             }
         });
         animator.start();
